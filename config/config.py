@@ -18,26 +18,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("27899654", ""))
+API_HASH = getenv("644a291c69677a2fd785c43455b1df08")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("5921690368:AAH2ZYQyqkhrdwjxwWk_wnGaPV8wkooC30o")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://shubham:<02011973>@cluster0.ikzfjei.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("1852420702", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("𝘔𝘦𝘛𝘪𝘮𝘦𝘟𝘜𝘯𝘭𝘪𝘮𝘪𝘵𝘦𝘥𝘔𝘌🌸🧿")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("5405058154", "").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID")
+BOT_ID = getenv("5921690368")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -47,7 +47,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("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", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None)
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)
